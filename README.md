@@ -31,12 +31,6 @@ The core goals of the project are：
 
 ---
 
-## 使用說明 (Usage)
-
-待補充
-
----
-
 ## 聯絡方式 (Contact)
 
 如果有任何問題或建議，請聯繫我：
