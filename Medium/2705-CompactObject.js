@@ -14,6 +14,4 @@ var compactObject = function (obj) {
     }
 
     return compacted;
-    123
-
 };
