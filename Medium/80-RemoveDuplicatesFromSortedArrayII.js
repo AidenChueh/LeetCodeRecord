@@ -1,4 +1,5 @@
 /**
+ * MySolution
  * @param {number[]} nums
  * @return {number}
  */
@@ -28,4 +29,27 @@ var removeDuplicates = function (nums) {
     }
 
     return k + 1;
+};
+
+
+/**
+ * The Other Solution
+ * 可以用一個物件去記數
+ * @param {number[]} nums
+ * @return {number}
+ */
+var removeDuplicates = function (nums) {
+    let k = 0;
+    let countObj = {};
+
+    for (let num of nums) {
+        countObj[num] = (countObj[num] || 0 + 1);
+
+        if (countObj[num] <= 2) {
+            nums[k] = num;
+            k++;
+        }
+    }
+
+    return k;
 };
