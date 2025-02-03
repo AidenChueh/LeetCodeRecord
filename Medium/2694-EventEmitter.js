@@ -3,7 +3,7 @@ class EventEmitter {
         this.events = new Map();
     }
 
-    /**
+    /** 
      * @param {string} eventName
      * @param {Function} callback
      * @return {Object}

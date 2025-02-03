@@ -1,7 +1,7 @@
 /**
  * @param {Array} arr
  * @param {number} depth
- * @return {Array}
+ * @return {Array} 
  */
 var flat = function (arr, n) {
     if (n === 0) {

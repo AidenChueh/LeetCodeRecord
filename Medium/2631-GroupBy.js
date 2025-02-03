@@ -1,5 +1,5 @@
 /**
- * My Solution
+ * My Solution 
  * @param {Function} fn
  * @return {Object}
  */

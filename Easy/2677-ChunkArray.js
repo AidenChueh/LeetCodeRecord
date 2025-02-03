@@ -1,4 +1,4 @@
-/**
+/** 
  * @param {Array} arr
  * @param {number} size
  * @return {Array}

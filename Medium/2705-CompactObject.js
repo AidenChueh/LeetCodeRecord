@@ -1,4 +1,4 @@
-/**
+/** 
  * @param {Object|Array} obj
  * @return {Object|Array}
  */
