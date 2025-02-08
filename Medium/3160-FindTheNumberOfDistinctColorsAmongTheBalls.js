@@ -36,6 +36,7 @@ var queryResults = function (limit, queries) {
 // 所以要改用 Map 來記錄，因為 Map 在查找、插入、刪除元素時的時間複雜度都是 O(1)。
 
 /**
+ * Other Solution
  * @param {number} limit
  * @param {number[][]} queries
  * @return {number[]}
