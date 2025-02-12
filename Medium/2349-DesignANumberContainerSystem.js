@@ -50,17 +50,19 @@ var NumberContainers = function () {
 };
 
 NumberContainers.prototype.change = function (i, n) {
-    // 如果該 索引 有 值 且 值和當前值一樣 就退出
+    // 如果該索引已經有值，且值與當前相同，就直接返回，不做更改
     if (this.idxMap.has(i) && this.idxMap.get(i) == n) return;
 
-    // 設定 索引 -> 值
+    // 設定索引 i 對應的值為 n
     this.idxMap.set(i, n);
 
-    // 如果該數字還沒紀錄索引 就給定一個新的 MinHeap
+    // 如果 n 還沒有對應的 MinHeap，則創建一個
     if (!this.numMap.has(n)) this.numMap.set(n, new MinHeap());
 
+    // 將索引 i 存入 n 對應的最小堆
     this.numMap.get(n).push(i);
 };
+
 
 NumberContainers.prototype.find = function (n) {
     if (!this.numMap.has(n)) return -1;
