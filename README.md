@@ -1,40 +1,29 @@
-﻿# LeetCode 刷題 & Git Bash 練習專案 
+﻿# LeetCode
 
-## 簡介 (Introduction)
-- 該專案用於每日記錄 LeetCode 題目的練習進度，同時練習使用 Git Bash 進行版本控制操作。
-專案的核心目標是：
-
-1. 系統化地記錄自己的解題過程。
-
-2. 參考並比較其他人的解法，探索可以改進和學習的地方。
-
-3. 提升資料結構和演算法的解題能力。
-
-4. 增強使用 Git 進行團隊協作和版本管理的熟練度。
-
-- This project is designed to record daily progress in solving LeetCode problems and to practice version control operations using Git Bash.
-The core goals of the project are：
-
-1. Systematically document personal problem-solving processes.
-
-2. Compare and learn from others' solutions to identify areas for improvement and growth.
-
-3. Enhance problem-solving skills in data structures and algorithms.
-
-4. Strengthen proficiency in using Git for team collaboration and version control.
-   
----
-
-## 使用技術 (Technologies Used)
-- **主要語言 (Main Language)**： JavaScript
-- **版本控制 (Version Control)**： Git & Git Bash
+繁體中文 | [English](./README.en.md)
 
 ---
 
-## 聯絡方式 (Contact)
+![LeetCode](https://leetcode.com/static/images/LeetCode_Sharing.png)
+
+## 介紹
+本專案用於 **記錄我的 LeetCode 練習進度**，涵蓋 **解題思路、關鍵概念及具體程式碼實現**，
+以系統化的方式提升演算法與數據結構能力。
+
+# 📂 資料夾分類方式  
+- **依照難度分類**（Easy / Medium / Hard）  
+- **依照主題分類**（如 陣列、遞歸、動態規劃 等）  
+- **周賽挑戰記錄與賽後檢討**，分析解題策略與改進方向  
+
+---
+
+## 使用技術
+- **主要語言**： JavaScript / TypeScript
+
+---
+
+## 聯絡方式
 
 如果有任何問題或建議，請聯繫我：
-
-If you have any questions or suggestions, please contact me：
 
 Email: aidenchiueh@gmail.com
