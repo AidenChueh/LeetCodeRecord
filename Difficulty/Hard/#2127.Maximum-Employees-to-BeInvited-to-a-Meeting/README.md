@@ -1,4 +1,4 @@
-# <a href="https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/" target="_blank">LeetCode 2127 - Maximum Employees to Be Invited to a Meeting</a>
+# [LeetCode 2127 - Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)
 
 ![LeetCode](https://leetcode.com/static/images/LeetCode_Sharing.png)
 
@@ -75,8 +75,8 @@ The maximum number of employees that can be invited to the meeting is 4.```
   3. 使用 **拓撲排序** (Topological Sorting) 確定哪些員工屬於環
   4. 計算環內最大員工數量 + 可能的鏈長 (通往環的最大深度)
 
-- **時間複雜度**：$O(n)$
-- **空間複雜度**：$O(n)$
+- **時間複雜度**：O(n)
+- **空間複雜度**：O(n)
 
 ---
 
