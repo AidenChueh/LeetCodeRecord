@@ -1,4 +1,4 @@
-# LeetCode 2127 - Maximum Employees to Be Invited to a Meeting
+# [LeetCode 2127 - Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)
 
 ![LeetCode](https://leetcode.com/static/images/LeetCode_Sharing.png)
 
@@ -13,6 +13,7 @@ Each employee can be invited to a meeting following these rules:
 Return the **maximum number of employees that can be invited to the meeting**.
 
 **Example 1:**
+
 ![Example 1](https://assets.leetcode.com/uploads/2021/12/14/ex1.png)
 
 ```
@@ -59,7 +60,8 @@ The maximum number of employees that can be invited to the meeting is 4.```
 
 ---
 
-## 💡 題目大意 (Approach)
+## 💡 題目大意 (Problem Purport)
+
 
 
 ---
@@ -81,7 +83,7 @@ The maximum number of employees that can be invited to the meeting is 4.```
 ## 📌 代碼實現 (Code Implementation)
 
 ### **JavaScript 解法**
-```JavaScript
+```
 /**
  * @param {number[]} favorite
  * @return {number}
@@ -210,7 +212,6 @@ var maximumInvitations = function (fav) {
 ---
 
 ## 🔗 相關連結 (Related Links)
-- [LeetCode 2127 - Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)
 - [Graph Theory Basics](https://en.wikipedia.org/wiki/Graph_theory)
 - [Topological Sorting Algorithm](https://en.wikipedia.org/wiki/Topological_sorting)
 
