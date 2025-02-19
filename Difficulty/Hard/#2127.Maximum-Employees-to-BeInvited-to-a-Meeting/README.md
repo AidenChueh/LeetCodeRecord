@@ -1,4 +1,4 @@
-# [LeetCode 2127 - Maximum Employees to Be Invited to a Meeting](https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/)
+# <a href="https://leetcode.com/problems/maximum-employees-to-be-invited-to-a-meeting/" target="_blank">LeetCode 2127 - Maximum Employees to Be Invited to a Meeting</a>
 
 ![LeetCode](https://leetcode.com/static/images/LeetCode_Sharing.png)
 
@@ -206,8 +206,8 @@ var maximumInvitations = function (fav) {
 ---
 
 ## 🏆 複雜度分析 (Complexity Analysis)
-- **時間複雜度**：$O(n)$，因為我們遍歷每個員工一次，並使用拓撲排序來消除非環節點。
-- **空間複雜度**：$O(n)$，因為需要儲存圖結構、入度、訪問標記等資訊。
+- **時間複雜度**：O(n)，因為我們遍歷每個員工一次，並使用拓撲排序來消除非環節點。
+- **空間複雜度**：O(n)，因為需要儲存圖結構、入度、訪問標記等資訊。
 
 ---
 
