@@ -1,4 +1,5 @@
 /**
+ * My Solution
  * @param {string} pattern
  * @return {string}
  */
@@ -9,11 +10,11 @@ var smallestNumber = function (pattern) {
 
     for (let i = 0; i <= n; i++) {
         stack.push(i + 1);
-        if (pattern[i] === "I" || i === n) {
+        if (pattern[i] === 'I' || i === n) {
             ans.push(...stack.reverse());
             stack = [];
         }
     }
 
-    return ans.join[''];
+    return ans.join('');
 };
