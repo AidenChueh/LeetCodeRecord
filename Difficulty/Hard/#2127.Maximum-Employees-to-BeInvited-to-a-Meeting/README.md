@@ -210,7 +210,7 @@ var maximumInvitations = function (fav) {
 --- 
 
 ## 🔍 主題 (Topics)
-- [`Graph`](../../../Topics/README.md)
+- [`Graph`](../../../Topics/Graph/README.md)
 - `Topological Sort`
 - `Depth-First Search (DFS)`
 

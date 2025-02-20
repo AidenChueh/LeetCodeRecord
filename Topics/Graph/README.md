@@ -38,7 +38,7 @@
 **有向圖示例**：
 ```
   A → B
-  ↓    ↓
+  ↓   ↓
   C → D
 ```
 
@@ -114,6 +114,6 @@ D: [B, C]
 ## **📌 7. 相關 LeetCode 題目**
 | 題目 | 類型 |
 |------|------|
-| **#2127.Maximum Employees to Be Invited to a Meeting**(../../Difficulty/Hard/#2127.Maximum-Employees-to-BeInvited-to-a-Meeting/README.md) | 拓撲排序 |
+| [**#2127.Maximum Employees to Be Invited to a Meeting**](../../Difficulty/Hard/#2127.Maximum-Employees-to-BeInvited-to-a-Meeting/README.md) | 拓撲排序 |
 
 
