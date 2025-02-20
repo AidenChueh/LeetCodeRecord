@@ -62,21 +62,14 @@ The maximum number of employees that can be invited to the meeting is 4.```
 
 ## 💡 題目大意 (Problem Purport)
 
-
+陣列參數 favorite（簡稱 fav）表示 每位員工的喜好關係，
+其中 fav[i] 代表 員工 i 喜歡的員工。
+目標是找出最多能參加會議的員工數量，並確保 每位員工都坐在自己喜歡的員工旁邊。
 
 ---
 
 ## 🚀 解法 (Solution Approaches)
-
-### **方法 1：拓撲排序 + 動態規劃 (Topological Sort + DP)**
-- **步驟：**
-  1. 構建有向圖 (`favorite` 作為邊)
-  2. 找出所有入度為 0 的節點，這些節點不能形成環
-  3. 使用 **拓撲排序** (Topological Sorting) 確定哪些員工屬於環
-  4. 計算環內最大員工數量 + 可能的鏈長 (通往環的最大深度)
-
-- **時間複雜度**：O(n)
-- **空間複雜度**：O(n)
+如下所示
 
 ---
 
@@ -209,14 +202,12 @@ var maximumInvitations = function (fav) {
 - **時間複雜度**：O(n)，因為我們遍歷每個員工一次，並使用拓撲排序來消除非環節點。
 - **空間複雜度**：O(n)，因為需要儲存圖結構、入度、訪問標記等資訊。
 
----
+--- 
 
-## 🔗 相關連結 (Related Links)
-- [Graph Theory Basics](https://en.wikipedia.org/wiki/Graph_theory)
-- [Topological Sorting Algorithm](https://en.wikipedia.org/wiki/Topological_sorting)
+## 🔍 主題 (Topics)
+- `Graph`
+- `Topological Sort`
+- `Depth-First Search (DFS)`
 
----
 
-## 📚 其他參考 (Additional Notes)
-- 這題與 **拓撲排序、圖論、環檢測** 有關，可以參考 **Kahn's Algorithm** 來學習 **如何找出環**。
-- 此問題也可以使用 **DFS + 記憶化搜索** 來解，但拓撲排序的方式更高效。
+
