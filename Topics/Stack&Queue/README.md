@@ -98,7 +98,7 @@ console.log(queue.isEmpty()); // false
 
 ---
 
-## **3️⃣ Stack vs. Queue**
+## **4️⃣ Stack vs. Queue**
 | **比較項目** | **Stack（堆疊）** | **Queue（佇列）** |
 |-------------|----------------|----------------|
 | **存取方式** | **LIFO（後進先出）** | **FIFO（先進先出）** |
@@ -107,101 +107,6 @@ console.log(queue.isEmpty()); // false
 | **應用場景** | **函數呼叫堆疊、括號匹配、DFS** | **任務排隊、BFS、列隊處理** |
 
 ---
-
-## **4️⃣ Stack & Queue 的應用場景**
-### **✅ 1. 有效的括號匹配（Valid Parentheses, LeetCode 20）**
-```javascript
-function isValid(s) {
-    const stack = [];
-    const map = { ")": "(", "}": "{", "]": "[" };
-
-    for (let char of s) {
-        if (char in map) {
-            if (stack.pop() !== map[char]) return false;
-        } else {
-            stack.push(char);
-        }
-    }
-
-    return stack.length === 0;
-}
-
-console.log(isValid("(){}[]")); // true
-console.log(isValid("(]")); // false
-```
-
-### **✅ 2. 用 Stack 進行深度優先搜尋（DFS, Depth-First Search）**
-```javascript
-function dfs(graph, start) {
-    let stack = [start], visited = new Set();
-
-    while (stack.length) {
-        let node = stack.pop();
-        if (!visited.has(node)) {
-            visited.add(node);
-            console.log(node);
-            for (let neighbor of graph[node]) {
-                stack.push(neighbor);
-            }
-        }
-    }
-}
-
-// 測試
-const graph = { A: ["B", "C"], B: ["D", "E"], C: ["F"], D: [], E: [], F: [] };
-dfs(graph, "A"); // A -> C -> F -> B -> E -> D
-```
-
-### **✅ 3. 用 Queue 進行廣度優先搜尋（BFS, Breadth-First Search）**
-```javascript
-function bfs(graph, start) {
-    let queue = [start], visited = new Set();
-
-    while (queue.length) {
-        let node = queue.shift();
-        if (!visited.has(node)) {
-            visited.add(node);
-            console.log(node);
-            for (let neighbor of graph[node]) {
-                queue.push(neighbor);
-            }
-        }
-    }
-}
-
-// 測試
-bfs(graph, "A"); // A -> B -> C -> D -> E -> F
-```
-
-### **✅ 4. 伺服器請求處理（使用 Queue）**
-```javascript
-class TaskQueue {
-    constructor() {
-        this.tasks = [];
-    }
-
-    addTask(task) {
-        this.tasks.push(task);
-    }
-
-    processTasks() {
-        while (this.tasks.length) {
-            let task = this.tasks.shift();
-            console.log("Processing:", task);
-        }
-    }
-}
-
-const taskQueue = new TaskQueue();
-taskQueue.addTask("Request 1");
-taskQueue.addTask("Request 2");
-taskQueue.addTask("Request 3");
-taskQueue.processTasks();
-// Processing: Request 1
-// Processing: Request 2
-// Processing: Request 3
-```
-
 ---
 
 ## **5️⃣ Stack & Queue 時間複雜度**
@@ -213,7 +118,7 @@ taskQueue.processTasks();
 
 ---
 
-## **6️⃣相關 LeetCode 題目**
+## **5️⃣相關 LeetCode 題目**
 | 題目 | 類型 |
 |------|------|
 
