@@ -4,7 +4,7 @@
 
 透過**拆解子問題、儲存計算結果（記憶化）**，
 
-來解決 **重疊子問題(Overlapping Subproblems)** 和 **最優子結構(Optimal Substructure)**的問題。
+來解決 **重疊子問題(Overlapping Subproblems)** 和 **最優子結構(Optimal Substructure)** 的問題。
 
 ---
 
