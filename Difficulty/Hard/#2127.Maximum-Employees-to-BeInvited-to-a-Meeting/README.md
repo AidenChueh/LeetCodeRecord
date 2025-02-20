@@ -41,6 +41,7 @@ The maximum number of employees that can be invited to the meeting is 3.```
 ```
 
 **Example 3:**
+
 ![Example 3](https://assets.leetcode.com/uploads/2021/12/14/ex2.png)
 
 ```
@@ -209,7 +210,7 @@ var maximumInvitations = function (fav) {
 --- 
 
 ## 🔍 主題 (Topics)
-- `Graph`(../../../Topics/README.md)
+- [`Graph`](../../../Topics/README.md)
 - `Topological Sort`
 - `Depth-First Search (DFS)`
 
