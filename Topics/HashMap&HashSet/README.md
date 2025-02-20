@@ -7,7 +7,9 @@
 ---
 
 ## **1️⃣ HashMap（鍵值映射）**
-**HashMap**（在 JavaScript 中對應 **Map**）是一種**鍵值對（Key-Value Pair）** 的數據結構，允許透過 **Key 快速存取 Value**，並具有**唯一的鍵（Key）**。
+**HashMap**（在 JavaScript 中對應 **Map**）是一種**鍵值對（Key-Value Pair）** 的數據結構，
+
+允許透過 **Key 快速存取 Value**，並具有**唯一的鍵（Key）**。
 
 ### **📌 HashMap 的特性**
 - **Key-Value 組合存儲**，Key 可為 **任何類型**（物件、數字、字串）。
@@ -145,6 +147,6 @@ console.log(userMap.get("Alice"));  // { age: 25, city: "New York" }
 
 ---
 
-## **5️⃣相關 LeetCode 題目**
+## **6️⃣相關 LeetCode 題目**
 | 題目 | 類型 |
 |------|------|
