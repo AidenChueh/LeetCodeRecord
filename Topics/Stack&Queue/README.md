@@ -98,7 +98,7 @@ console.log(queue.isEmpty()); // false
 
 ---
 
-## **4️⃣ Stack vs. Queue**
+## **3️⃣ Stack vs. Queue**
 | **比較項目** | **Stack（堆疊）** | **Queue（佇列）** |
 |-------------|----------------|----------------|
 | **存取方式** | **LIFO（後進先出）** | **FIFO（先進先出）** |
@@ -109,7 +109,7 @@ console.log(queue.isEmpty()); // false
 ---
 ---
 
-## **5️⃣ Stack & Queue 時間複雜度**
+## **4️⃣ Stack & Queue 時間複雜度**
 | **操作** | **Stack（堆疊）** | **Queue（佇列）** |
 |------|------|------|
 | **插入（Push/Enqueue）** | `O(1)` | `O(1)` |
