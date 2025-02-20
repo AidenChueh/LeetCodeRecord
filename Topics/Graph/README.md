@@ -26,8 +26,8 @@
 ### **1️⃣ 依據邊的方向性**
 | 類型 | 說明 | 圖示 |
 |------|------|------|
-| **無向圖（Undirected Graph）** | 邊沒有方向，`A-B` 表示雙向關係。 | `(A) -- (B)` |
-| **有向圖（Directed Graph, DAG）** | 邊有方向，`A → B` 表示 A 指向 B。 | `(A) → (B)` |
+| **無向圖（Undirected Graph）** | 邊沒有方向，`A-B` 表示雙向關係。 | (A) -- (B) |
+| **有向圖（Directed Graph, DAG）** | 邊有方向，`A → B` 表示 A 指向 B。 | (A) → (B) |
 
 **無向圖示例**：
 ```
@@ -112,12 +112,8 @@ D: [B, C]
 ---
 
 ## **📌 7. 相關 LeetCode 題目**
-| 題目 | 類型 | 連結 |
-|------|------|------|
-| **Course Schedule** | 拓撲排序 | [LeetCode 207](https://leetcode.com/problems/course-schedule/) |
-| **Number of Islands** | DFS / BFS | [LeetCode 200](https://leetcode.com/problems/number-of-islands/) |
-| **Shortest Path in Binary Matrix** | BFS | [LeetCode 1091](https://leetcode.com/problems/shortest-path-in-binary-matrix/) |
-| **Word Ladder** | BFS | [LeetCode 127](https://leetcode.com/problems/word-ladder/) |
-| **Network Delay Time** | Dijkstra | [LeetCode 743](https://leetcode.com/problems/network-delay-time/) |
+| 題目 | 類型 |
+|------|------|
+| **#2127.Maximum Employees to Be Invited to a Meeting**(../../Difficulty/Hard/#2127.Maximum-Employees-to-BeInvited-to-a-Meeting/README.md) | 拓撲排序 |
 
 

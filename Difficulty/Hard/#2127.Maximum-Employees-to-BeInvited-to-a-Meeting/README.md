@@ -38,6 +38,7 @@ The seating arrangement will be the same as that in the figure given in example 
 - Employee 1 will sit between employees 0 and 2.
 - Employee 2 will sit between employees 1 and 0.
 The maximum number of employees that can be invited to the meeting is 3.```
+```
 
 **Example 3:**
 ![Example 3](https://assets.leetcode.com/uploads/2021/12/14/ex2.png)
@@ -50,6 +51,7 @@ The above figure shows how the company will invite employees 0, 1, 3, and 4, and
 Employee 2 cannot be invited because the two spots next to their favorite employee 1 are taken.
 So the company leaves them out of the meeting.
 The maximum number of employees that can be invited to the meeting is 4.```
+```
 
 **Note:**
 
@@ -63,8 +65,10 @@ The maximum number of employees that can be invited to the meeting is 4.```
 ## 💡 題目大意 (Problem Purport)
 
 陣列參數 favorite（簡稱 fav）表示 每位員工的喜好關係，
+
 其中 fav[i] 代表 員工 i 喜歡的員工。
-目標是找出最多能參加會議的員工數量，並確保 每位員工都坐在自己喜歡的員工旁邊。
+
+目標是找出最多能參加會議的員工數量，並確保 每位員工都坐在自己喜歡的員工旁邊
 
 ---
 
@@ -205,7 +209,7 @@ var maximumInvitations = function (fav) {
 --- 
 
 ## 🔍 主題 (Topics)
-- `Graph`
+- `Graph`(../../../Topics/README.md)
 - `Topological Sort`
 - `Depth-First Search (DFS)`
 
