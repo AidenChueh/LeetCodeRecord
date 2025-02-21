@@ -2,28 +2,26 @@
 
 ![LeetCode](https://leetcode.com/static/images/LeetCode_Sharing.png)
 
-## 💡 題目大意 (Problem Purport)
+## **📝 題目描述 (Problem Description)**  
 
-題目要求我們對 被汙染的二元樹 進行還原，該樹的所有節點值最初均為 -1。
+題目要求我們對 **被汙染的二元樹** 進行還原，該樹的所有節點值最初均為 `-1`。  
 
-還原後，我們需要實作一個 FindElements 類別，提供查找功能，判斷指定的目標值是否存在於樹中。
+還原後，我們需要實作一個 **FindElements** 類別，提供查找功能，判斷指定的目標值是否存在於樹中。  
 
-還原規則:
+## **🔹 還原規則 (Recovery Rules)**  
 
-根節點值設為 0。
-
-若左子節點存在，則其值為：父節點值 × 2 + 1。
-
-若右子節點存在，則其值為：父節點值 × 2 + 2。
+1. **根節點值設為 `0`**。  
+2. **若左子節點存在**，則其值為：`父節點值 × 2 + 1`。  
+3. **若右子節點存在**，則其值為：`父節點值 × 2 + 2`。  
 
 ---
 
-## 🚀 解法 (Solution Approaches)
+## 🚀 **解法 (Solution Approaches)**
 透過DFS還原二元樹，並使用Set來進行存取及查詢
 
 ---
 
-## 📌 代碼實現 (Code Implementation)
+## 📌 **代碼實現 (Code Implementation)**
 
 ### **JavaScript 解法**
 ```
@@ -56,7 +54,7 @@ FindElements.prototype.find = function (target) {
 
 ---
 
-## 🏆 複雜度分析 (Complexity Analysis)
+## 🏆 **複雜度分析 (Complexity Analysis)**
 - **時間複雜度**：`O(n)`  
   - **recover()** 遍歷整棵二元樹，每個節點只處理 **一次**，因此時間複雜度為 **`O(n)`**。  
   - **find()** 使用 `Set.has()` 來查找元素，時間複雜度為 **`O(1)`**。  
@@ -66,7 +64,7 @@ FindElements.prototype.find = function (target) {
 
 --- 
 
-## 🔍 主題 (Topics)
+## 🔍 **主題 (Topics)**
 - `Hash Table`
 - `Tree`
 - `Depth-First Search`
