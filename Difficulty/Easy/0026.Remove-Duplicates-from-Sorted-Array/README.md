@@ -4,7 +4,8 @@
 
 ## **📝 題目描述 (Problem Description)**  
 
-給定一個 **遞增排序（non-decreasing order）** 的整數數組 `nums`，請 **就地（in-place）** 移除重複的元素，使每個元素最多出現一次，並返回新的長度 `k`。  
+給定一個 **遞增排序（non-decreasing order）** 的整數數組 `nums`，
+請 **就地（in-place）** 移除重複的元素，使每個元素最多出現一次，並返回新的長度 `k`。  
 
 要求：
 - 你不能使用額外的陣列來存儲其他元素，**必須使用 O(1) 額外空間**。  
@@ -40,6 +41,7 @@ var removeDuplicates = function (nums) {
 
 ---
 
+## 🏆 **複雜度分析 (Complexity Analysis)**
 - **時間複雜度**：`O(n)`  
   - 這段程式遍歷 `nums` **一次**（`O(n)`），並且 `index` 只會前進，不會回頭，因此時間複雜度為 `O(n)`。  
 
