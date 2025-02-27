@@ -16,21 +16,21 @@
 
 ## 🚀 **解法 (Solution Approaches)**
 1. 使用 `indexMap` 建立哈希表
-- 建立 `indexMap`，存儲數組 `arr[i]` 的索引，以便查找某個數是否存在於 `arr` 中。
+    建立 `indexMap`，存儲數組 `arr[i]` 的索引，以便查找某個數是否存在於 `arr` 中。
 
 2. 雙層迴圈選取起始元素 (`x, y`)
-- 遍歷 `arr`，選擇 `x = arr[i]`，`y = arr[j]` 作為 Fibonacci-like 子序列的前兩個數。
+    遍歷 `arr`，選擇 `x = arr[i]`，`y = arr[j]` 作為 Fibonacci-like 子序列的前兩個數。
 
 3. 使用 `while` 迴圈延長子序列
-- 若 `x + y` 存在於 `indexMap`，則：
-  - 更新 `x1 = x2`，`x2 = x1 + x2`，將當前序列擴展至下一個符合條件的數。
-  - 計算當前子序列長度 `current_max`，並更新全局最大長度 `global_max`。
+    - 若 `x + y` 存在於 `indexMap`，則：
+      - 更新 `x1 = x2`，`x2 = x1 + x2`，將當前序列擴展至下一個符合條件的數。
+      - 計算當前子序列長度 `current_max`，並更新全局最大長度 `global_max`。
 
 4. 當 `while` 迴圈結束時，嘗試新的 `x, y` 組合
-- 重置 `current_max`，繼續下一輪 `for` 迴圈。
+    重置 `current_max`，繼續下一輪 `for` 迴圈。
 
 5. 返回最大長度 `global_max`
-- 若找不到滿足條件的序列，則返回 `0`。
+    若找不到滿足條件的序列，則返回 `0`。
 
 ---
 
