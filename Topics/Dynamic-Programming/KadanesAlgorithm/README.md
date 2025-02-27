@@ -74,4 +74,4 @@ nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 ## **6️⃣相關 LeetCode 題目**
 | 題目 | 類型 |
 |------|------|
-|[**1749. Maximum Absolute Sum of Any Subarray**](../../Difficulty/Medium/1749.Maximum-Absolute-Sum-of-Any-Subarray/README.md)|Kadane's Algorithm|
+|[**1749. Maximum Absolute Sum of Any Subarray**](../../../Difficulty/Medium/1749.Maximum-Absolute-Sum-of-Any-Subarray/README.md)|Kadane's Algorithm|
