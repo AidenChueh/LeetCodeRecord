@@ -65,13 +65,13 @@ var closestPrimes = function (left, right) {
 
 ## 🏆 **複雜度分析 (Complexity Analysis)**  
 
-- **時間複雜度**：`O(n log log n)` 
-  - 埃拉托斯特尼篩法：O(n log log n)
-  - 遍歷範圍內的質數並找最小相鄰差：O(m)（m 是範圍內的質數數量）
+- **時間複雜度**：`O(n log log n)`
+  - 埃拉托斯特尼篩法：O(n log log n)。
+  - 遍歷範圍內的質數並找最小相鄰差：O(m)（m 是範圍內的質數數量）。
 
-- **空間複雜度**：`O(n)`  
-  - isPrime 陣列存儲 0 ~ right 的質數標記：O(n)
-  - primes 陣列存儲範圍內的質數：O(m)
+- **空間複雜度**：`O(n)`
+  - isPrime 陣列存儲 0 ~ right 的質數標記：O(n)。
+  - primes 陣列存儲範圍內的質數：O(m)。。
 
 --- 
 
