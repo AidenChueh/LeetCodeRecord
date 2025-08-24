@@ -11,11 +11,33 @@
 
 ## 🚀 **解法 (Solution Approaches)**
 
+使用雙指針(滑動窗口)，left 代表窗口起始點，right 代表窗口結束點，透過迴圈讓增加 right 讓窗口擴大，
+當窗口內有1個以上的0時，增加 left 讓窗口縮小直到窗口內只剩下1個0，取當下窗口長度(right-left)和res(過去的結果)的最大值，也就是答案。
 
 ---
 
 ## 📌 **代碼實現 (Code Implementation)**
 ```
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var longestSubarray = function (nums) {
+    let left = 0, zero = 0, res = 0;
+
+    for (let right = 0; right < nums.length; right++) {
+        if (nums[right] === 0) zero++;
+
+        while (zero > 1) {
+            if (nums[left] === 0) zero--;
+            left++;
+        }
+
+        res = Math.max(res, right - left);
+    }
+
+    return res;
+};
 ```
 
 ---
@@ -23,8 +45,10 @@
 ## 🏆 **複雜度分析 (Complexity Analysis)**  
 
 - **時間複雜度**：
+- O(n) → 因為每個元素最多被 left 和 right 各處理一次
 
 - **空間複雜度**：
+- O(1) → 只用到幾個額外變數
 
 --- 
 
